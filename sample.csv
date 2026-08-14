@@ -1,0 +1,36 @@
+timestamp,provider,model,task_type,prompt_tokens,completion_tokens,total_tokens,latency_ms,ttft_ms,success,region
+2026-08-01 00:00:00,Groq,Llama 3.3 70B,code_gen,1966,1342,3308,3495,600,True,eu-west
+2026-08-01 01:00:00,Cerebras,Llama 3.1 8B,summarization,1624,599,2223,3005,711,True,asia-east
+2026-08-01 02:00:00,Mistral,Qwen3 235B,classification,256,67,323,1105,326,True,asia-east
+2026-08-01 03:00:00,OpenRouter,Mixtral 8x22B,chat,1545,1679,3224,1939,613,True,us-east
+2026-08-01 04:00:00,NVIDIA,Gemma 4 26B,safety_check,3180,2558,5738,1617,653,True,eu-west
+2026-08-01 05:00:00,Cloudflare,Nemotron 3 30B,data_extraction,691,441,1132,1212,795,True,us-west
+2026-08-01 06:00:00,Portkey,Llama 3.3 70B,code_gen,486,448,934,3026,731,True,asia-east
+2026-08-01 07:00:00,Groq,Llama 3.1 8B,summarization,1297,1253,2550,3374,494,True,asia-east
+2026-08-01 08:00:00,Cerebras,Qwen3 235B,classification,623,730,1353,3443,504,True,us-east
+2026-08-01 09:00:00,Mistral,Mixtral 8x22B,chat,2395,3483,5878,474,212,True,eu-west
+2026-08-01 10:00:00,OpenRouter,Gemma 4 26B,safety_check,393,388,781,3364,732,True,eu-west
+2026-08-01 11:00:00,NVIDIA,Nemotron 3 30B,data_extraction,290,303,593,2792,176,True,eu-west
+2026-08-01 12:00:00,Cloudflare,Llama 3.3 70B,code_gen,1057,409,1466,1299,752,False,us-east
+2026-08-01 13:00:00,Portkey,Llama 3.1 8B,summarization,749,260,1009,2685,316,True,us-east
+2026-08-01 14:00:00,Groq,Qwen3 235B,classification,3419,1704,5123,543,586,False,us-east
+2026-08-01 15:00:00,Cerebras,Mixtral 8x22B,chat,1705,571,2276,1285,304,True,us-west
+2026-08-01 16:00:00,Mistral,Gemma 4 26B,safety_check,337,480,817,1751,765,True,us-west
+2026-08-01 17:00:00,OpenRouter,Nemotron 3 30B,data_extraction,1070,1299,2369,1413,685,True,eu-west
+2026-08-01 18:00:00,NVIDIA,Llama 3.3 70B,code_gen,3134,1384,4518,1018,784,False,us-east
+2026-08-01 19:00:00,Cloudflare,Llama 3.1 8B,summarization,2623,1641,4264,469,299,True,us-east
+2026-08-01 20:00:00,Portkey,Qwen3 235B,classification,3819,2244,6063,1648,53,False,asia-east
+2026-08-01 21:00:00,Groq,Mixtral 8x22B,chat,1845,1745,3590,1823,606,False,eu-west
+2026-08-01 22:00:00,Cerebras,Gemma 4 26B,safety_check,2694,3815,6509,3460,578,False,us-east
+2026-08-01 23:00:00,Mistral,Nemotron 3 30B,data_extraction,1850,507,2357,1761,512,False,asia-east
+2026-08-02 00:00:00,OpenRouter,Llama 3.3 70B,code_gen,1793,1373,3166,1093,792,False,us-west
+2026-08-02 01:00:00,NVIDIA,Llama 3.1 8B,summarization,3409,4551,7960,2132,166,True,us-west
+2026-08-02 02:00:00,Cloudflare,Qwen3 235B,classification,809,312,1121,2228,512,True,asia-east
+2026-08-02 03:00:00,Portkey,Mixtral 8x22B,chat,268,270,538,2212,313,False,asia-east
+2026-08-02 04:00:00,Groq,Gemma 4 26B,safety_check,3405,687,4092,1593,570,True,us-east
+2026-08-02 05:00:00,Cerebras,Nemotron 3 30B,data_extraction,2698,754,3452,3016,239,True,asia-east
+2026-08-02 06:00:00,Mistral,Llama 3.3 70B,code_gen,817,1053,1870,1526,236,False,eu-west
+2026-08-02 07:00:00,OpenRouter,Llama 3.1 8B,summarization,472,108,580,444,223,True,asia-east
+2026-08-02 08:00:00,NVIDIA,Qwen3 235B,classification,2637,3627,6264,1664,741,True,us-west
+2026-08-02 09:00:00,Cloudflare,Mixtral 8x22B,chat,3059,1515,4574,1599,396,False,asia-east
+2026-08-02 10:00:00,Portkey,Gemma 4 26B,safety_check,3738,2505,6243,3348,156,False,asia-east
